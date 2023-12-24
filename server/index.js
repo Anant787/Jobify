@@ -4,7 +4,7 @@ const cors = require("cors");
 
 require("dotenv").config();
 const port = process.env.PORT || 5000;
-
+console.log("PORT: " + process.env.ATLAS_URI);
 // use middlewares
 // Set up CORS
 // app.use(cors({
