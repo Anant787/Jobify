@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 
 require("dotenv").config();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5001;
 console.log("PORT: " + process.env.ATLAS_URI);
 // use middlewares
 // Set up CORS
